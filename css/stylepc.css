@@ -1,0 +1,203 @@
+.containers{
+	font-family: 微软雅黑;
+	background: rgba(255,255,255,0.75);
+	padding: 30px;
+	margin:10% auto;
+	overflow: hidden;
+	box-shadow: 0 0 40px 0 rgba(0,0,0,0.3), inset 0 0 10px rgba(0,165,237, 0.5);
+	border-radius: 20px;
+}
+	.containers .menu{
+		width: 240px;
+		margin-left: 30px;
+		float: left;
+		border-right: 1px solid #aaa;
+	}
+/*position 菜单背景图标*/
+	.positionIicon{
+		display: inline block;
+		width: 32px;
+		height: 32px;
+		margin: 0px 4px;
+		float: left;
+		margin-right: 10px;
+	}
+/*menu图标*/
+	.q-menu-img{
+		background: url("../images/iconfont-kuaisulu.png");
+	}
+
+	.q-menu-doit{
+		background: url("../images/iconfont-0bangzhushouce.png");
+	}
+
+	.q-menu-three{
+		background: url("../images/iconfont-wenti.png");
+	}
+
+
+	.containers .menu h3{
+		font-size: 20px;
+		cursor: pointer;
+	}
+    .containers .menu ul{
+        display: none;
+    }
+	.containers .menu ul li{
+		height: 28px;
+		line-height: 28px;
+	}
+
+	.containers .menu ul li a:hover{
+		background: #9FB6CD;
+		border-radius: 14px;
+		-webkit-border-radius: 14px;
+		-moz-border-radius: 14px;
+		-moz-border-radius:14px;
+		color:#fff;
+
+	}
+
+	ul[class="ulmenu1"],ul[class="ulmenu2"],ul[class="ulmenu3"]{
+		list-style: none;
+	}
+
+	.containers .menu a{
+		text-decoration: none;
+		color: #000;
+		font-size: 14px;
+		display: block;
+		width: 180px;
+		height: 26px;
+		padding-left: 10px;
+	}
+
+	.containers .menu .selected{
+		background: #ccc;
+		border-radius: 14px;
+	}
+
+
+
+	.containers .content{
+		margin-top: 15px;
+		width: 860px;
+		margin-left: 230px;
+		padding-left:60px;
+	}
+
+	.containers .content .get-menu{
+		margin-left: -10px;
+	}
+
+	.containers .content .get-menu a{
+		display: inline-block;
+		font-size: 15px;
+	    height: 40px;
+	}
+
+	.containers .content .get-menu a:last-child{
+		margin-left: -8px;
+		color: #7D9EC0;
+	}
+
+	.containers .content .get-menu span{
+		display: inline-block;
+	    height: 40px;
+	    margin-left: -110px;
+	}
+
+	.containers .content .menu1 .tab {
+		display: none;
+	}
+
+	.containers .content .menu1 .active{
+		display: block;
+	}
+
+	.containers .content .menu1 .tab p{
+		font-size: 14px;
+		line-height: 20px;
+		color: rgba(0,0,0,1);
+        word-break:break-all;
+	}
+
+	.containers .content .menu1 .tab .tt{
+		font-size: 14px;
+		font-weight: bold;
+
+	}
+/*第二个菜单下的文档内容*/
+	.containers .content .menu2 .tab {
+		display: none;
+	}
+
+	.containers .content .menu2 .active{
+		display: block;
+	}
+
+	.containers .content .menu2 .tab p{
+		font-size: 14px;
+		line-height: 20px;
+		color: rgba(0,0,0,0.8);
+        word-break:break-all;
+	}
+
+	.containers .content .menu2 .tab .tt{
+		font-size: 14px;
+		font-weight: bold;
+
+	}
+/*第三个菜单下的文档内容*/
+	.containers .content .menu3 .tab {
+		display: none;
+	}
+
+	.containers .content .menu3 .active{
+		display: block;
+	}
+
+	.containers .content .menu3 .tab p{
+		font-size: 14px;
+		line-height: 20px;
+		color: rgba(0,0,0,0.8);
+        word-break:break-all;
+	}
+
+	.containers .content .menu3 .tab .tt{
+		font-size: 13px;
+		font-weight: bold;
+
+	}
+
+	/******************************************************************/
+.tab-line{
+	height: 26px;
+	padding: 8px 10px 8px 10px;
+	margin-bottom: 8px;
+	line-height: 15px;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.tab-line:hover{
+	color:red;
+	margin-bottom: 12px;
+	font-size: 22px;
+	border-radius: 10px;
+	background: rgba(0,0,0,0.2);
+}
+
+.tab-line-text{
+	font-size: 20px;
+	text-align: left;
+	color: #101010;
+}
+
+.tab-line-text:hover{
+	color:red;
+}
+
+.tab-line-time{
+	font-size: 16px;
+	text-align: right;
+}
